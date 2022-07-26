@@ -1,0 +1,39 @@
+#form{
+    margin-top: 40px;
+} 
+
+#formulario {
+    display: inline-table;
+    width: 100%;
+}
+
+#formulario h1{
+    font-size: 70px;
+    margin-bottom: 32px;   
+    margin-top: 20px;
+}
+
+#formulario h1{
+    font: 400 18px Verdana, sans-serif;
+    text-align: center;
+}
+
+#formulario h2{
+    margin-top: 16px;
+    font: 400 18px Verdana, sans-serif;
+}
+
+#formulario a{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+#formulario a:hover{
+    opacity: 0.8;
+}

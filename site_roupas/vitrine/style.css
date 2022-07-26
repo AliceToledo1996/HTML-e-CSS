@@ -1,0 +1,106 @@
+/*
+MENU
+-------------------------------------------------------------------------------
+*/
+.menu{
+	width:100%;/*tamanho*/
+	height:50px;
+	background-color: #222;/*Mudar a cor do menu*/
+	}
+	
+.menu>ul{
+	list-style:none;	
+	}
+.menu ul li{
+		width:33%;
+		float:left;
+	}
+
+.menu a{
+    color:#aaa;/*Mudar a cor da letra do menu*/
+    font-family:Verdana;
+    font-size: 18px;
+	padding:15px;
+	display:block;
+	text-decoration: none;
+	background-color: #222;
+	text-align:center;
+	}
+
+.menu a:hover{
+    background-color:#f4f4f4;
+    color: black;
+	}
+/*-------------------------------------------------------------------------*/
+
+
+
+
+body{
+    width: 80%;
+    margin-left: 10%;
+}
+#vitrine {
+    display: inline-table;
+    width: 100%;
+}
+
+#vitrine ul{
+   /* display: inline-table;
+    width: 100%;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    list-style-type: none;
+}
+#vitrine ul li{
+    width: 55%;
+    
+    /*display: inline-table;
+    margin-top: 10px;*/
+    background-color: #FFF;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#vitrine ul li button{
+    /*position: absolute;*/
+    right: 24px;
+    top:24px;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color:rgb(236, 87, 107);
+}
+
+#vitrine ul li button:hover{
+    opacity: 0.8;
+}
+
+#vitrine ul li a img:hover{
+    transition-delay: 0.1s;
+    opacity: 0.7;
+    
+}
+
+#vitrine ul li p{
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16;
+}
+
+#vitrine ul li a img{
+    display: block;
+    margin-bottom: 16px;
+    align-items: center;
+    margin-right: 2px;
+}
+
+body p{
+    margin-top: 20px;
+    margin-block-end: 20px;
+    font-size: 13;
+    font-family: Verdana;
+}

@@ -1,0 +1,59 @@
+#form{
+    margin-top: 40px;
+} 
+
+#formulario {
+    display: inline-table;
+    width: 100%;
+}
+
+#formulario ul{
+    display: inline-table;
+    width: 100%;
+}
+
+#formulario ul li{
+    width: 50%;
+    list-style-type: none;
+    display: inline-table;
+    margin-top: 10px;
+}
+
+#formulario form h1{
+    font-size: 32px;
+    margin-bottom: 32px;   
+}
+
+#formulario h4{
+    font: 400 18px Verdana, sans-serif;
+    margin-top: 50px;
+    display: flex;/*coloca itens ao lado um do outro*/
+    flex-direction: column;/*muda display para ficarem um acima do outro*/
+    align-items: center;/*alinha no centro na vertical*/
+    justify-content: center;
+}
+
+#formulario ul li h1{
+    font: 400 18px Verdana, sans-serif;
+    text-align: center;
+}
+
+#formulario ul li h2{
+    margin-top: 16px;
+    font: 400 18px Verdana, sans-serif;
+}
+
+#formulario ul li a{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+#formulario ul li a:hover{
+    opacity: 0.8;
+}
